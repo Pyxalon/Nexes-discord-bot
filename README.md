@@ -1,3 +1,13 @@
+# 🚧 COMING SOON
+
+> **Nexes Discord Bot is currently under active development.**
+>
+> The first public release is coming soon! Features are being developed, tested, and improved before the initial launch.
+>
+> ⭐ **Star this repository** to follow development and be notified when the first release goes live.
+
+---
+
 # Nexes Discord Bot
 
 A modern, open-source Discord bot built with **Node.js** and **discord.js**.
