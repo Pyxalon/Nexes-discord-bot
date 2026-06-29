@@ -83,8 +83,7 @@ Nexes-discord-bot/
 ├── config/
 ├── index.js
 ├── package.json
-├── .env.example
-├── .gitignore
+├── .env
 └── README.md
 ```
 
