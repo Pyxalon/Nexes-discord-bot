@@ -2,7 +2,7 @@
 
 A modern, open-source Discord bot built with **Node.js** and **discord.js**.
 
-Nexes is designed to provide a fast, reliable, and feature-rich experience for Discord communities. The project focuses on clean code, scalability, and ease of customization for developers.
+Nexes is designed to provide a fast, reliable, and customizable experience for Discord communities. Whether you're managing a small server or a large community, Nexes provides powerful moderation, utility, and quality-of-life features while maintaining clean, scalable code.
 
 ---
 
@@ -10,47 +10,51 @@ Nexes is designed to provide a fast, reliable, and feature-rich experience for D
 
 * 🛡️ Moderation Commands
 * ⚙️ Utility Commands
-* 📊 System Status & Information
+* 📊 System Information & Status
 * 🎉 Fun Commands
-* 🔒 Secure Configuration with Environment Variables
+* 🔒 Secure Environment Variable Support
 * 📁 Organized Command & Event Handler
-* 🚀 Easy to Extend and Customize
-
-> More features are added regularly.
+* 🚀 Easy to Customize & Extend
+* 📈 Active Development
 
 ---
 
 ## 📦 Requirements
 
-* Node.js 20 or later
+* Node.js v20+
 * npm
 * A Discord Bot Application
 
 ---
 
-## 🚀 Installation
+## 🚀 Getting Started
 
-Clone the repository:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/Nexes-discord-bot.git
-```
-
-Navigate into the project:
+### Clone the repository
 
 ```bash
+git clone https://github.com/Pyxalon/Nexes-discord-bot.git
 cd Nexes-discord-bot
 ```
 
-Install dependencies:
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-Create a `.env` file using `.env.example` and add your bot credentials.
+### Configure the bot
 
-Start the bot:
+Create a `.env` file in the project's root directory.
+
+Example:
+
+```env
+DISCORD_TOKEN=YOUR_BOT_TOKEN
+CLIENT_ID=YOUR_CLIENT_ID
+GUILD_ID=YOUR_GUILD_ID
+```
+
+### Start the bot
 
 ```bash
 node index.js
@@ -76,22 +80,28 @@ Nexes-discord-bot/
 
 ---
 
-## 🔐 Security
+## 🤝 Contributing
 
-Never commit your `.env` file or Discord bot token.
+Contributions are welcome!
 
-If a bot token is ever exposed, regenerate it immediately through the Discord Developer Portal.
+If you'd like to improve Nexes:
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Commit your changes.
+4. Open a Pull Request.
+
+Bug reports and feature requests are appreciated.
 
 ---
 
-## 🤝 Contributing
+## 🔒 Security
 
-Contributions, bug reports, and feature requests are welcome.
+For your security:
 
-1. Fork the repository.
-2. Create a new branch.
-3. Make your changes.
-4. Submit a Pull Request.
+* Never commit your `.env` file.
+* Never expose your Discord bot token.
+* If your token is ever leaked, regenerate it immediately through the Discord Developer Portal.
 
 ---
 
@@ -103,6 +113,12 @@ This project is licensed under the MIT License.
 
 ## ⭐ Support
 
-If you enjoy this project, consider giving the repository a ⭐ to support future development.
+If you find this project useful, consider giving the repository a **⭐ Star**. It helps support development and lets others discover the project.
+
+---
+
+## 👨‍💻 Developer
+
+Created and maintained by **Pyxalon**.
 
 Thank you for checking out **Nexes Discord Bot**!
